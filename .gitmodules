@@ -15,5 +15,5 @@
 	url = https://github.com/moseymosey/netpbm.git
 [submodule "qt"]
 	path = qt
-	url = https://github.com/moseymosey/qt
-	branch = 4.8
+	url = https://code.qt.io/qt/qt5.git
+	branch = 5.5.1
