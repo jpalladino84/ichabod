@@ -47,17 +47,6 @@ if [ ! -e qt_install ]; then
     #rm -rf qt_build
 fi
 
-<<<<<<< HEAD
-./qt_install/bin/qmake ~/ichabod/qt/qtwebkit/WebKit.pro
-make && make install
-
-
-./qt_install/bin/qmake ~/ichabod/qt/qtxmlpatterns/qtxmlpatterns.pro
-make && make install
-
-./qt_install/bin/qmkae ~/ichabod/qt/qtsvg/qtsvg.pro
-=======
-
 ./qt_install/bin/qmake ~/ichabod/qt/qtwebkit/WebKit.pro
 make && make install
 
@@ -65,7 +54,6 @@ make && make install
 make && make install
 
 ./qt_install/bin/qmake ~/ichabod/qt/qtxmlpatterns/qtxmlpatterns.pro
->>>>>>> tweaking build configure and setup_build_env scripts
 make && make install
 
 ./qt_install/bin/qmake ichabod.pro
