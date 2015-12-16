@@ -9,7 +9,7 @@ QT -= gui
 
 TEMPLATE = app
 TARGET = ichabod
-INCLUDEPATH += . mongoose 
+INCLUDEPATH += . mongoose
 CONFIG += debug
 
 # mongoose
@@ -18,13 +18,6 @@ SOURCES += mongoose/mongoose.c
 # giflib
 INCLUDEPATH += usr/include
 LIBS += -L/usr/local/lib -lgif
-# SOURCES += code/lib/dgif_lib.c \
-#           code/lib/egif_lib.c \
-#           code/lib/gifalloc.c \
-#           code/lib/gif_err.c \
-#           code/lib/gif_font.c \
-#           code/lib/gif_hash.c \
-#           code/lib/quantize.c
 
 # jsoncpp
 INCLUDEPATH += jsoncpp/include
