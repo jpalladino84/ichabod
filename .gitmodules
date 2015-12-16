@@ -4,9 +4,6 @@
 [submodule "jsoncpp"]
 	path = jsoncpp
 	url = https://github.com/open-source-parsers/jsoncpp
-[submodule "code"]
-	path = code
-	url = http://git.code.sf.net/p/giflib/code
 [submodule "statsd-client-cpp"]
 	path = statsd-client-cpp
 	url = https://github.com/moseymosey/statsd-client-cpp
