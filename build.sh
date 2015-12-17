@@ -10,6 +10,9 @@ trap error_handler EXIT
 
 ./setup_build_env.sh
 
+# linking directly to source for now
+#./build_giflib.sh
+
 source common.sh
 subm
 
@@ -21,6 +24,8 @@ fi
 
 if [ ! -e jsoncpp/build/lib/libjsoncpp.a ]; then
     pushd jsoncpp
+    # go back to an older version of cmake
+    # git revert --no-edit ae5a56f9ff6932feb641bafe323195b6aa30bd21
     rm -rf build
     mkdir build
     pushd build
