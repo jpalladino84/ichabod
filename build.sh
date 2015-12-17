@@ -85,7 +85,7 @@ fi
 ######################
 
 /mnt/qt_install/bin/qmake ichabod.pro
-make && make install
+make
 
 
 # test

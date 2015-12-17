@@ -9,6 +9,7 @@ License: Spec file is LGPL, binary rpm is gratis but non-distributable
 Group: Applications/System
 BuildRoot: %{_topdir}/BUILD/%{name}-%{version}-%{release}
 Source: %{name}-%{version}.tar.gz
+AutoReqProv: no
 
 %description
 Image rasterization and javasript evaluation
