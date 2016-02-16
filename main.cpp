@@ -219,6 +219,7 @@ static int handle_default(struct mg_connection *conn, Settings& settings)
     root["image"] = encoded.toLocal8Bit().constData();
     root["image_original_size"] = originalSize;
     root["image_encoded_size"] = encodedSize;
+    root["image_format"] = settings.fmt.toLocal8Bit().constData();
 
     Json::StyledWriter writer;
     std::string json = writer.write(root);
